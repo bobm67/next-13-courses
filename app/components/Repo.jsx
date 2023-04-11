@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 async function fetchRepo(name) {
 	const response = await fetch(
-		`https://api.github.com/repos/bradtraversy/${name}`,
+		`https://api.github.com/repos/bobm67/${name}`,
 		{
 			next: {
 				revalidate: 60,
